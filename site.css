@@ -1,2 +1,30 @@
 body { background-color: #DDD; }
 p{ color:#880000; }
+
+#shadowBox {
+    background-color: rgba(36, 36, 36, 0.80);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 9999;
+}
+
+#modal {
+    background-color: #FFF;
+    height: 300px;
+    width: 400px;
+    margin: auto;
+    margin-top: 10%;
+    padding: 1em;
+    position: relative;
+}
+
+    #modal .closer {
+        position: absolute;
+        top: .3em;
+        right: .3em;
+    }
+
+#shadowBox.hidden {
+    display: none;
+}
