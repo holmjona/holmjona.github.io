@@ -1,0 +1,16 @@
+﻿body {
+    background-color: #AAA;
+}
+#container{
+    width: 75%;
+    background-color: #FFF;
+    padding: .5em 2em 2em 2em;
+    border-radius: 1em;
+    margin: auto;
+}
+
+p:first-letter{
+    font-size: 2em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #AAD;
+}

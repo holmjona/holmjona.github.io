@@ -1,0 +1,31 @@
+﻿body {
+    background-color: #085a13;
+}
+
+#header {
+    color: #FFF;
+    text-align: center;
+    font-size: 2em;
+}
+
+#content {
+    width: 75%;
+    background-color: #FFF;
+    padding: .5em 2em 2em 2em;
+    border-radius: 0 0 1em 1em;
+    margin: auto;
+}
+
+form {
+    text-align: center;
+    background-color: #DED;
+    margin: -1em -2em 2em -2em;
+    padding: .5em;
+}
+
+p {
+    font-size: 1.5em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #9A9;
+    border-bottom: 2px dashed #AAA;
+}
